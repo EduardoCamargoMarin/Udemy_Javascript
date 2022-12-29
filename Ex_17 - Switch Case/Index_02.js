@@ -12,4 +12,6 @@ switch (airport) {
     case 'SEA':
         console.log('Seattle')
         break
+        default:
+            console.log('Unknown')
 }
