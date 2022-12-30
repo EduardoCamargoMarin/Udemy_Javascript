@@ -1,0 +1,22 @@
+
+
+h1{
+    color: blue;
+    transition: .5s;
+    text-align: center;
+}
+
+h1:hover{
+    text-shadow: 3px 4px 5px red, 2px 3px 3px white;
+}
+
+h2{
+    color: blue;
+    transition: .5s;
+    text-align: center;
+}
+
+h2:hover{
+    text-shadow: 3px 4px 5px rgb(249, 9, 9), 2px 3px 3px white;
+}
+
