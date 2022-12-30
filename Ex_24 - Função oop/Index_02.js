@@ -6,7 +6,7 @@ let bookPages = 306
 let chap1 = 'The fundamentals'
 let chap2 = 'First law'
 
-//--------------------------------------
+//--------------------------------------------------
 
 const book = {
     bookTitle: 'Atomic Habits',
@@ -15,7 +15,14 @@ const book = {
     bookChapters: {
         chap1: 'The fundamentals',
         chap2: 'First law',
+        },   //precisa ter a virgula após as chaves para executar a função corretamente.
+        printBook: function() {
+            console.log('printing....')
+        }
     }
-}
-console.log(book)
+//chamando a função dentro do objeto
+book.printBook()
+
+
+
 
