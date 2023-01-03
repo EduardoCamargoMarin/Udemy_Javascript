@@ -1,9 +1,9 @@
 
+const tempLondon = [18, 13, 8, 2]
 
-let clients = ['Andre', 'Marcela', 'José']
+const tempPositive = tempLondon.every(function(value) { //buscou na tempLondon e puxou a função, verificou todos os numeros
+return value >= 0
 
-// clients.sort() -- organizar de forma alfabetica e numerica
+})
 
-clients.reverse() // reverte a array
-
-console.log(clients)
+console.log(tempPositive)
