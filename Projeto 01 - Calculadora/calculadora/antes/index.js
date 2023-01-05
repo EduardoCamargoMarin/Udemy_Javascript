@@ -12,5 +12,5 @@ function outcome() {
         total = num1 * num2
     else
         total = num1 / num2
-    document.getElementById('resultArea').innerHTML = 'Result: ' + String(total) //apresenta o resultado calculado como o valor de string.
+    document.getElementById('resultArea').innerHTML = 'Result: ' + String(total) //apresenta o resultado calculado como o formato de string.
 }
