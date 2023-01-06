@@ -3,6 +3,10 @@ let userNumbers = []
 let attempts = 0
 let maxGuesses = 10
 
+function newGame() {
+    window.location.reload()
+}
+
 function init() {
    computerNumber =  Math.floor(Math.random() * 100 + 1)  //criar algo randomico e arredondado
 
@@ -26,6 +30,14 @@ function compareNumbers() {
         document.getElementById('inputBox').value = ''
         attempts++ //adicionar mais um
         document.getElementById('attempts').innerHTML = attempts
+    
+       }
+       else if (userNumber > 100){
+        document.getElementById('textOutput').innerHTML = 'Your number is invalid!!!'
+        document.getElementById('inputBox').value = ''
+        attempts++ //adicionar mais um
+        document.getElementById('attempts').innerHTML = attempts
+        document.getElementById('inputBox').setAttribute('Readonly', 'Readonly') // some com o input para continuar digitando
     
        }
        else {
