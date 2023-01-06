@@ -3,7 +3,7 @@
 function price() { // não é necessário definir a quantidade de argumentos no ()
     let total = 0
     for (let value of arguments)
-    total +=value
+        total +=value
     return total //pega todos os resultados dos argumentos
 }
 
